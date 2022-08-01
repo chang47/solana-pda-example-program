@@ -1,7 +1,7 @@
 [features]
 seeds = false
 [programs.localnet]
-demo_pda = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+demo_pda = "3Z3dWerEbF5RGtcu7S3avuKRMSnHr8tUoJ69AhEWSDHM"
 
 [registry]
 url = "https://anchor.projectserum.com"

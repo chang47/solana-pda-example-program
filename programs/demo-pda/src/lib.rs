@@ -33,7 +33,7 @@ pub struct CreateEscrow<'info> {
         seeds = [b"escrow".as_ref(), from.key().as_ref(), to.key().as_ref()],
         bump,
         payer = from,
-        space = size_of::<EscrowAccount>()
+        space = size_of::<EscrowAccount>() + 16
     )]
     pub escrow: Account<'info, EscrowAccount>,
 
